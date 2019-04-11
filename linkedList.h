@@ -5,18 +5,20 @@
 #ifndef SPACEINVADERS_LINKEDLIST_H
 #define SPACEINVADERS_LINKEDLIST_H
 
+#include "invader.h"
+
 typedef struct Node{
-    int data;
+    struct Invader* data;
     struct Node* next;
 }Node;
 
 Node* createList();
 
-void add(Node** head, int data);
+void add(Node** head, Invader* data);
 
 void printList(Node* head);
 
-void delete(Node** head, Node* target);
+void delete(Node** head, int target);
 
 void  deleteList(Node** head);
 #endif //SPACEINVADERS_LINKEDLIST_H

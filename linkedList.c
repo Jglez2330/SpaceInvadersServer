@@ -12,7 +12,7 @@ Node* createList(){
     return head;
 }
 
-void add(Node** head, int data){
+void add(Node** head, Invader* data){
     Node* actual = *head;
     Node* newNode = malloc(sizeof(Node));
 
@@ -33,18 +33,18 @@ void add(Node** head, int data){
 void printList(Node *head){
     Node* actual = head;
     while(actual!=NULL){
-        printf("[%d\t|\t%p]->\n", actual->data, actual->next);
+        printf("[%d\t|\t%p]->\n", actual->data->ID, actual->next);
         actual = actual->next;
     }
     printf("NULL \n");
 }
 
-void delete(Node** head, Node* target){
+void delete(Node** head, int target){
     Node* actual = *head;
     Node* previous = NULL;
 
     while(actual != NULL){
-        if(actual->data = target->data){
+        if(actual->data->ID == target){
             if(previous == NULL){
                 *head = actual->next;
             }else{

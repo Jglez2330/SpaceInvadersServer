@@ -8,8 +8,9 @@
 typedef struct Invader{
     char tipo; //'a' calamar, 'b' cangrejo, 'c' pulpo
     int vida, posX, posY, puntos;
+    int ID;
 }Invader;
 
-Invader createInvader(Invader alien, char tipo, int posX, int posY);
+Invader* createInvader(Invader* alien, char tipo, int posX, int posY,int ID);
 
 #endif //SPACEINVADERS_INVADER_H
