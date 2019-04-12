@@ -41,6 +41,7 @@ void printList(Node *head){
 
 void delete(Node** head, int target){
     Node* actual = *head;
+
     Node* previous = NULL;
 
     while(actual != NULL){
@@ -51,7 +52,7 @@ void delete(Node** head, int target){
                 previous->next = actual->next;
             }
             free(actual);
-            actual = actual->next;
+            break;
         }
         previous = actual;
         actual = actual->next;

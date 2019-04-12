@@ -11,6 +11,6 @@ typedef struct Invader{
     int ID;
 }Invader;
 
-Invader* createInvader(Invader* alien, char tipo, int posX, int posY,int ID);
+Invader* createInvader(char tipo, int posX, int posY,int ID);
 
 #endif //SPACEINVADERS_INVADER_H

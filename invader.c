@@ -1,9 +1,11 @@
+#include <stdlib.h>
 #include "invader.h"
 
 //
 // Created by jose on 08/04/19.
 //
-Invader* createInvader(Invader* alien, char tipo, int posX, int posY, int ID){
+Invader* createInvader(char tipo, int posX, int posY, int ID){
+    Invader* alien = malloc(sizeof(Invader));
     alien->tipo = tipo;
     alien->posX = posX;
     alien->posY = posY;

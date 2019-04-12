@@ -7,6 +7,7 @@
 #include "InvaderHandler.h"
 InvaderHandler* createHandler(){
     InvaderHandler* handler = malloc(sizeof(InvaderHandler));
+    handler->invaderList=createList();
     return handler;
 }
 
@@ -20,9 +21,9 @@ void newEnemies(InvaderHandler* handler){
         }else{
             tipo = 'c';
         }
-        Invader invader;
-        add(&handler->invaderList,createInvader(&invader,tipo,i*100+150,100,handler->IDcounter));
 
+        Invader* invader = createInvader(tipo,i*100+150,100,handler->IDcounter);
+        add(&handler->invaderList, invader);
 
         handler->IDcounter++;
     }
