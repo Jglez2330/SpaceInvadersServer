@@ -1,0 +1,11 @@
+//
+// Created by Joseph González Pastora on 2019-04-13.
+//
+
+#ifndef SPACEINVADERSSERVER_COMPROBARLOGICA_H
+#define SPACEINVADERSSERVER_COMPROBARLOGICA_H
+
+#include "../JSON/cJSON.h"
+
+cJSON* comprobar(cJSON* json);
+#endif //SPACEINVADERSSERVER_COMPROBARLOGICA_H
