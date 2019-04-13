@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="SpaceInvadersServer"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/jglez2330/Documents/C/SpaceInvadersServer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/jglez2330/Documents/C/SpaceInvadersServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jglez2330/Documents/C/SpaceInvadersServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jglez2330/Documents/C/SpaceInvadersServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jglez2330/Documents/C/SpaceInvadersServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/jglez2330/Documents/C/SpaceInvadersServer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/jglez2330/Documents/C/SpaceInvadersServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jglez2330/Documents/C/SpaceInvadersServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jglez2330/Documents/C/SpaceInvadersServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jglez2330/Documents/C/SpaceInvadersServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/jglez2330/Documents/C/SpaceInvadersServer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/jglez2330/Documents/C/SpaceInvadersServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jglez2330/Documents/C/SpaceInvadersServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jglez2330/Documents/C/SpaceInvadersServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jglez2330/Documents/C/SpaceInvadersServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SpaceInvadersServer">
+				<Option output="/Users/jglez2330/Documents/C/SpaceInvadersServer/cmake-build-debug/SpaceInvadersServer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jglez2330/Documents/C/SpaceInvadersServer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/jglez2330/Documents/C/SpaceInvadersServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 SpaceInvadersServer"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jglez2330/Documents/C/SpaceInvadersServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jglez2330/Documents/C/SpaceInvadersServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jglez2330/Documents/C/SpaceInvadersServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SpaceInvadersServer/fast">
+				<Option output="/Users/jglez2330/Documents/C/SpaceInvadersServer/cmake-build-debug/SpaceInvadersServer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jglez2330/Documents/C/SpaceInvadersServer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/jglez2330/Documents/C/SpaceInvadersServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 SpaceInvadersServer/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jglez2330/Documents/C/SpaceInvadersServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jglez2330/Documents/C/SpaceInvadersServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jglez2330/Documents/C/SpaceInvadersServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/jglez2330/Documents/C/SpaceInvadersServer/Server.c">
+			<Option target="SpaceInvadersServer"/>
+		</Unit>
+		<Unit filename="/Users/jglez2330/Documents/C/SpaceInvadersServer/Server.h">
+			<Option target="SpaceInvadersServer"/>
+		</Unit>
+		<Unit filename="/Users/jglez2330/Documents/C/SpaceInvadersServer/Socket.c">
+			<Option target="SpaceInvadersServer"/>
+		</Unit>
+		<Unit filename="/Users/jglez2330/Documents/C/SpaceInvadersServer/Socket.h">
+			<Option target="SpaceInvadersServer"/>
+		</Unit>
+		<Unit filename="/Users/jglez2330/Documents/C/SpaceInvadersServer/main.c">
+			<Option target="SpaceInvadersServer"/>
+		</Unit>
+		<Unit filename="/Users/jglez2330/Documents/C/SpaceInvadersServer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
