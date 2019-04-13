@@ -1,4 +1,5 @@
 "/Users/jglez2330/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/jglez2330/Documents/C/SpaceInvadersServer
+<<<<<<< Updated upstream
 -- The C compiler identification is AppleClang 10.0.1.10010046
 -- Check for working C compiler: /Library/Developer/CommandLineTools/usr/bin/cc
 -- Check for working C compiler: /Library/Developer/CommandLineTools/usr/bin/cc -- works
@@ -6,6 +7,8 @@
 -- Detecting C compiler ABI info - done
 -- Detecting C compile features
 -- Detecting C compile features - done
+=======
+>>>>>>> Stashed changes
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /Users/jglez2330/Documents/C/SpaceInvadersServer/cmake-build-debug

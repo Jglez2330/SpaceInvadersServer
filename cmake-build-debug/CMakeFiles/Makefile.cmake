@@ -7,6 +7,7 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
+<<<<<<< Updated upstream
   "../CMakeLists.txt"
   "CMakeFiles/3.13.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.13.2/CMakeSystem.cmake"
@@ -24,10 +25,20 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/Users/jglez2330/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/CMakeDetermineSystem.cmake"
   "/Users/jglez2330/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/CMakeExtraGeneratorDetermineCompilerMacrosAndIncludeDirs.cmake"
   "/Users/jglez2330/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/CMakeFindBinUtils.cmake"
+=======
+  "../CMAKE/FindSDL2.cmake"
+  "../CMakeLists.txt"
+  "CMakeFiles/3.13.2/CMakeCCompiler.cmake"
+  "CMakeFiles/3.13.2/CMakeSystem.cmake"
+  "/Users/jglez2330/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/CMakeCInformation.cmake"
+  "/Users/jglez2330/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/CMakeCommonLanguageInclude.cmake"
+  "/Users/jglez2330/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/CMakeExtraGeneratorDetermineCompilerMacrosAndIncludeDirs.cmake"
+>>>>>>> Stashed changes
   "/Users/jglez2330/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/CMakeFindCodeBlocks.cmake"
   "/Users/jglez2330/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/CMakeGenericSystem.cmake"
   "/Users/jglez2330/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/CMakeInitializeConfigs.cmake"
   "/Users/jglez2330/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/CMakeLanguageInformation.cmake"
+<<<<<<< Updated upstream
   "/Users/jglez2330/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/CMakeParseImplicitLinkInfo.cmake"
   "/Users/jglez2330/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/CMakeSystem.cmake.in"
   "/Users/jglez2330/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/CMakeSystemSpecificInformation.cmake"
@@ -73,6 +84,16 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/Users/jglez2330/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/Compiler/XL-C-DetermineCompiler.cmake"
   "/Users/jglez2330/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/Compiler/zOS-C-DetermineCompiler.cmake"
   "/Users/jglez2330/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/Internal/FeatureTesting.cmake"
+=======
+  "/Users/jglez2330/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/CMakeSystemSpecificInformation.cmake"
+  "/Users/jglez2330/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/CMakeSystemSpecificInitialize.cmake"
+  "/Users/jglez2330/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/Compiler/AppleClang-C.cmake"
+  "/Users/jglez2330/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+  "/Users/jglez2330/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/Compiler/Clang.cmake"
+  "/Users/jglez2330/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/Compiler/GNU.cmake"
+  "/Users/jglez2330/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/FindPackageHandleStandardArgs.cmake"
+  "/Users/jglez2330/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/FindPackageMessage.cmake"
+>>>>>>> Stashed changes
   "/Users/jglez2330/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/Platform/Apple-AppleClang-C.cmake"
   "/Users/jglez2330/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/Platform/Apple-Clang-C.cmake"
   "/Users/jglez2330/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/CLion.app/Contents/bin/cmake/mac/share/cmake-3.13/Modules/Platform/Apple-Clang.cmake"
@@ -90,9 +111,12 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
+<<<<<<< Updated upstream
   "CMakeFiles/3.13.2/CMakeSystem.cmake"
   "CMakeFiles/3.13.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.13.2/CMakeCCompiler.cmake"
+=======
+>>>>>>> Stashed changes
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 

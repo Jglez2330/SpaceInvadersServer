@@ -18,7 +18,7 @@ struct socket{
     struct sockaddr_in observerAddress;
     socklen_t clientLenght;
 
-    char buffer[256];
+    char buffer[4096];
 
 };
 

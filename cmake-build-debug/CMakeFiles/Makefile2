@@ -71,7 +71,11 @@ CMAKE_BINARY_DIR = /Users/jglez2330/Documents/C/SpaceInvadersServer/cmake-build-
 CMakeFiles/SpaceInvadersServer.dir/all:
 	$(MAKE) -f CMakeFiles/SpaceInvadersServer.dir/build.make CMakeFiles/SpaceInvadersServer.dir/depend
 	$(MAKE) -f CMakeFiles/SpaceInvadersServer.dir/build.make CMakeFiles/SpaceInvadersServer.dir/build
+<<<<<<< Updated upstream
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jglez2330/Documents/C/SpaceInvadersServer/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4 "Built target SpaceInvadersServer"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jglez2330/Documents/C/SpaceInvadersServer/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12 "Built target SpaceInvadersServer"
+>>>>>>> Stashed changes
 .PHONY : CMakeFiles/SpaceInvadersServer.dir/all
 
 # Include target in all.
@@ -81,7 +85,11 @@ all: CMakeFiles/SpaceInvadersServer.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/SpaceInvadersServer.dir/rule: cmake_check_build_system
+<<<<<<< Updated upstream
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jglez2330/Documents/C/SpaceInvadersServer/cmake-build-debug/CMakeFiles 4
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jglez2330/Documents/C/SpaceInvadersServer/cmake-build-debug/CMakeFiles 12
+>>>>>>> Stashed changes
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/SpaceInvadersServer.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jglez2330/Documents/C/SpaceInvadersServer/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/SpaceInvadersServer.dir/rule

@@ -123,6 +123,171 @@ SpaceInvadersServer/fast:
 	$(MAKE) -f CMakeFiles/SpaceInvadersServer.dir/build.make CMakeFiles/SpaceInvadersServer.dir/build
 .PHONY : SpaceInvadersServer/fast
 
+<<<<<<< Updated upstream
+=======
+Barreras.o: Barreras.c.o
+
+.PHONY : Barreras.o
+
+# target to build an object file
+Barreras.c.o:
+	$(MAKE) -f CMakeFiles/SpaceInvadersServer.dir/build.make CMakeFiles/SpaceInvadersServer.dir/Barreras.c.o
+.PHONY : Barreras.c.o
+
+Barreras.i: Barreras.c.i
+
+.PHONY : Barreras.i
+
+# target to preprocess a source file
+Barreras.c.i:
+	$(MAKE) -f CMakeFiles/SpaceInvadersServer.dir/build.make CMakeFiles/SpaceInvadersServer.dir/Barreras.c.i
+.PHONY : Barreras.c.i
+
+Barreras.s: Barreras.c.s
+
+.PHONY : Barreras.s
+
+# target to generate assembly for a file
+Barreras.c.s:
+	$(MAKE) -f CMakeFiles/SpaceInvadersServer.dir/build.make CMakeFiles/SpaceInvadersServer.dir/Barreras.c.s
+.PHONY : Barreras.c.s
+
+JSON/JsonHandler.o: JSON/JsonHandler.c.o
+
+.PHONY : JSON/JsonHandler.o
+
+# target to build an object file
+JSON/JsonHandler.c.o:
+	$(MAKE) -f CMakeFiles/SpaceInvadersServer.dir/build.make CMakeFiles/SpaceInvadersServer.dir/JSON/JsonHandler.c.o
+.PHONY : JSON/JsonHandler.c.o
+
+JSON/JsonHandler.i: JSON/JsonHandler.c.i
+
+.PHONY : JSON/JsonHandler.i
+
+# target to preprocess a source file
+JSON/JsonHandler.c.i:
+	$(MAKE) -f CMakeFiles/SpaceInvadersServer.dir/build.make CMakeFiles/SpaceInvadersServer.dir/JSON/JsonHandler.c.i
+.PHONY : JSON/JsonHandler.c.i
+
+JSON/JsonHandler.s: JSON/JsonHandler.c.s
+
+.PHONY : JSON/JsonHandler.s
+
+# target to generate assembly for a file
+JSON/JsonHandler.c.s:
+	$(MAKE) -f CMakeFiles/SpaceInvadersServer.dir/build.make CMakeFiles/SpaceInvadersServer.dir/JSON/JsonHandler.c.s
+.PHONY : JSON/JsonHandler.c.s
+
+JSON/cJSON.o: JSON/cJSON.c.o
+
+.PHONY : JSON/cJSON.o
+
+# target to build an object file
+JSON/cJSON.c.o:
+	$(MAKE) -f CMakeFiles/SpaceInvadersServer.dir/build.make CMakeFiles/SpaceInvadersServer.dir/JSON/cJSON.c.o
+.PHONY : JSON/cJSON.c.o
+
+JSON/cJSON.i: JSON/cJSON.c.i
+
+.PHONY : JSON/cJSON.i
+
+# target to preprocess a source file
+JSON/cJSON.c.i:
+	$(MAKE) -f CMakeFiles/SpaceInvadersServer.dir/build.make CMakeFiles/SpaceInvadersServer.dir/JSON/cJSON.c.i
+.PHONY : JSON/cJSON.c.i
+
+JSON/cJSON.s: JSON/cJSON.c.s
+
+.PHONY : JSON/cJSON.s
+
+# target to generate assembly for a file
+JSON/cJSON.c.s:
+	$(MAKE) -f CMakeFiles/SpaceInvadersServer.dir/build.make CMakeFiles/SpaceInvadersServer.dir/JSON/cJSON.c.s
+.PHONY : JSON/cJSON.c.s
+
+Logica/Jugadores.o: Logica/Jugadores.c.o
+
+.PHONY : Logica/Jugadores.o
+
+# target to build an object file
+Logica/Jugadores.c.o:
+	$(MAKE) -f CMakeFiles/SpaceInvadersServer.dir/build.make CMakeFiles/SpaceInvadersServer.dir/Logica/Jugadores.c.o
+.PHONY : Logica/Jugadores.c.o
+
+Logica/Jugadores.i: Logica/Jugadores.c.i
+
+.PHONY : Logica/Jugadores.i
+
+# target to preprocess a source file
+Logica/Jugadores.c.i:
+	$(MAKE) -f CMakeFiles/SpaceInvadersServer.dir/build.make CMakeFiles/SpaceInvadersServer.dir/Logica/Jugadores.c.i
+.PHONY : Logica/Jugadores.c.i
+
+Logica/Jugadores.s: Logica/Jugadores.c.s
+
+.PHONY : Logica/Jugadores.s
+
+# target to generate assembly for a file
+Logica/Jugadores.c.s:
+	$(MAKE) -f CMakeFiles/SpaceInvadersServer.dir/build.make CMakeFiles/SpaceInvadersServer.dir/Logica/Jugadores.c.s
+.PHONY : Logica/Jugadores.c.s
+
+ObjetosJuego.o: ObjetosJuego.c.o
+
+.PHONY : ObjetosJuego.o
+
+# target to build an object file
+ObjetosJuego.c.o:
+	$(MAKE) -f CMakeFiles/SpaceInvadersServer.dir/build.make CMakeFiles/SpaceInvadersServer.dir/ObjetosJuego.c.o
+.PHONY : ObjetosJuego.c.o
+
+ObjetosJuego.i: ObjetosJuego.c.i
+
+.PHONY : ObjetosJuego.i
+
+# target to preprocess a source file
+ObjetosJuego.c.i:
+	$(MAKE) -f CMakeFiles/SpaceInvadersServer.dir/build.make CMakeFiles/SpaceInvadersServer.dir/ObjetosJuego.c.i
+.PHONY : ObjetosJuego.c.i
+
+ObjetosJuego.s: ObjetosJuego.c.s
+
+.PHONY : ObjetosJuego.s
+
+# target to generate assembly for a file
+ObjetosJuego.c.s:
+	$(MAKE) -f CMakeFiles/SpaceInvadersServer.dir/build.make CMakeFiles/SpaceInvadersServer.dir/ObjetosJuego.c.s
+.PHONY : ObjetosJuego.c.s
+
+Proyectiles.o: Proyectiles.c.o
+
+.PHONY : Proyectiles.o
+
+# target to build an object file
+Proyectiles.c.o:
+	$(MAKE) -f CMakeFiles/SpaceInvadersServer.dir/build.make CMakeFiles/SpaceInvadersServer.dir/Proyectiles.c.o
+.PHONY : Proyectiles.c.o
+
+Proyectiles.i: Proyectiles.c.i
+
+.PHONY : Proyectiles.i
+
+# target to preprocess a source file
+Proyectiles.c.i:
+	$(MAKE) -f CMakeFiles/SpaceInvadersServer.dir/build.make CMakeFiles/SpaceInvadersServer.dir/Proyectiles.c.i
+.PHONY : Proyectiles.c.i
+
+Proyectiles.s: Proyectiles.c.s
+
+.PHONY : Proyectiles.s
+
+# target to generate assembly for a file
+Proyectiles.c.s:
+	$(MAKE) -f CMakeFiles/SpaceInvadersServer.dir/build.make CMakeFiles/SpaceInvadersServer.dir/Proyectiles.c.s
+.PHONY : Proyectiles.c.s
+
+>>>>>>> Stashed changes
 Server.o: Server.c.o
 
 .PHONY : Server.o
@@ -177,6 +342,63 @@ Socket.c.s:
 	$(MAKE) -f CMakeFiles/SpaceInvadersServer.dir/build.make CMakeFiles/SpaceInvadersServer.dir/Socket.c.s
 .PHONY : Socket.c.s
 
+<<<<<<< Updated upstream
+=======
+invader.o: invader.c.o
+
+.PHONY : invader.o
+
+# target to build an object file
+invader.c.o:
+	$(MAKE) -f CMakeFiles/SpaceInvadersServer.dir/build.make CMakeFiles/SpaceInvadersServer.dir/invader.c.o
+.PHONY : invader.c.o
+
+invader.i: invader.c.i
+
+.PHONY : invader.i
+
+# target to preprocess a source file
+invader.c.i:
+	$(MAKE) -f CMakeFiles/SpaceInvadersServer.dir/build.make CMakeFiles/SpaceInvadersServer.dir/invader.c.i
+.PHONY : invader.c.i
+
+invader.s: invader.c.s
+
+.PHONY : invader.s
+
+# target to generate assembly for a file
+invader.c.s:
+	$(MAKE) -f CMakeFiles/SpaceInvadersServer.dir/build.make CMakeFiles/SpaceInvadersServer.dir/invader.c.s
+.PHONY : invader.c.s
+
+linkedList.o: linkedList.c.o
+
+.PHONY : linkedList.o
+
+# target to build an object file
+linkedList.c.o:
+	$(MAKE) -f CMakeFiles/SpaceInvadersServer.dir/build.make CMakeFiles/SpaceInvadersServer.dir/linkedList.c.o
+.PHONY : linkedList.c.o
+
+linkedList.i: linkedList.c.i
+
+.PHONY : linkedList.i
+
+# target to preprocess a source file
+linkedList.c.i:
+	$(MAKE) -f CMakeFiles/SpaceInvadersServer.dir/build.make CMakeFiles/SpaceInvadersServer.dir/linkedList.c.i
+.PHONY : linkedList.c.i
+
+linkedList.s: linkedList.c.s
+
+.PHONY : linkedList.s
+
+# target to generate assembly for a file
+linkedList.c.s:
+	$(MAKE) -f CMakeFiles/SpaceInvadersServer.dir/build.make CMakeFiles/SpaceInvadersServer.dir/linkedList.c.s
+.PHONY : linkedList.c.s
+
+>>>>>>> Stashed changes
 main.o: main.c.o
 
 .PHONY : main.o
@@ -213,12 +435,42 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... SpaceInvadersServer"
+<<<<<<< Updated upstream
+=======
+	@echo "... Barreras.o"
+	@echo "... Barreras.i"
+	@echo "... Barreras.s"
+	@echo "... JSON/JsonHandler.o"
+	@echo "... JSON/JsonHandler.i"
+	@echo "... JSON/JsonHandler.s"
+	@echo "... JSON/cJSON.o"
+	@echo "... JSON/cJSON.i"
+	@echo "... JSON/cJSON.s"
+	@echo "... Logica/Jugadores.o"
+	@echo "... Logica/Jugadores.i"
+	@echo "... Logica/Jugadores.s"
+	@echo "... ObjetosJuego.o"
+	@echo "... ObjetosJuego.i"
+	@echo "... ObjetosJuego.s"
+	@echo "... Proyectiles.o"
+	@echo "... Proyectiles.i"
+	@echo "... Proyectiles.s"
+>>>>>>> Stashed changes
 	@echo "... Server.o"
 	@echo "... Server.i"
 	@echo "... Server.s"
 	@echo "... Socket.o"
 	@echo "... Socket.i"
 	@echo "... Socket.s"
+<<<<<<< Updated upstream
+=======
+	@echo "... invader.o"
+	@echo "... invader.i"
+	@echo "... invader.s"
+	@echo "... linkedList.o"
+	@echo "... linkedList.i"
+	@echo "... linkedList.s"
+>>>>>>> Stashed changes
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

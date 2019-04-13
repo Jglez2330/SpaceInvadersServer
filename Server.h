@@ -7,6 +7,20 @@
 
 
 #include "Socket.h"
+#include "Clientes.h"
+#include "JSON/cJSON.h"
+#include <pthread.h>
+#include <errno.h>
+#include <stdio.h>
+#include <string.h>   //strlen
+#include <stdlib.h>
+#include <errno.h>
+#include <unistd.h>   //close
+#include <arpa/inet.h>    //close
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <netinet/in.h>
+#include <sys/time.h> //FD
 
 
 
@@ -30,8 +44,13 @@ struct server{
 };
 
 void error(char *string);
-void iniciarServer(struct server*  structServer);
+
+//struct server* iniciarServer(struct server*  structServer);
 void aceptarClientes(struct server* structServer);
+
+void* escucharCliente(void* cliente);
+
+void sendAll(cJSON* json);
 
 
 #endif //SPACEINVADERSSERVER_SERVER_H

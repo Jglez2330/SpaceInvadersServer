@@ -1,0 +1,8 @@
+//
+// Created by Joseph González Pastora on 2019-04-12.
+//
+
+#ifndef SPACEINVADERSSERVER_JUGADORES_H
+#define SPACEINVADERSSERVER_JUGADORES_H
+
+#endif //SPACEINVADERSSERVER_JUGADORES_H

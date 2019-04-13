@@ -96,15 +96,135 @@ CMakeFiles/SpaceInvadersServer.dir/Server.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SpaceInvadersServer.dir/Server.c.s"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jglez2330/Documents/C/SpaceInvadersServer/Server.c -o CMakeFiles/SpaceInvadersServer.dir/Server.c.s
 
+<<<<<<< Updated upstream
+=======
+CMakeFiles/SpaceInvadersServer.dir/invader.c.o: CMakeFiles/SpaceInvadersServer.dir/flags.make
+CMakeFiles/SpaceInvadersServer.dir/invader.c.o: ../invader.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jglez2330/Documents/C/SpaceInvadersServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/SpaceInvadersServer.dir/invader.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SpaceInvadersServer.dir/invader.c.o   -c /Users/jglez2330/Documents/C/SpaceInvadersServer/invader.c
+
+CMakeFiles/SpaceInvadersServer.dir/invader.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SpaceInvadersServer.dir/invader.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jglez2330/Documents/C/SpaceInvadersServer/invader.c > CMakeFiles/SpaceInvadersServer.dir/invader.c.i
+
+CMakeFiles/SpaceInvadersServer.dir/invader.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SpaceInvadersServer.dir/invader.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jglez2330/Documents/C/SpaceInvadersServer/invader.c -o CMakeFiles/SpaceInvadersServer.dir/invader.c.s
+
+CMakeFiles/SpaceInvadersServer.dir/linkedList.c.o: CMakeFiles/SpaceInvadersServer.dir/flags.make
+CMakeFiles/SpaceInvadersServer.dir/linkedList.c.o: ../linkedList.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jglez2330/Documents/C/SpaceInvadersServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/SpaceInvadersServer.dir/linkedList.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SpaceInvadersServer.dir/linkedList.c.o   -c /Users/jglez2330/Documents/C/SpaceInvadersServer/linkedList.c
+
+CMakeFiles/SpaceInvadersServer.dir/linkedList.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SpaceInvadersServer.dir/linkedList.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jglez2330/Documents/C/SpaceInvadersServer/linkedList.c > CMakeFiles/SpaceInvadersServer.dir/linkedList.c.i
+
+CMakeFiles/SpaceInvadersServer.dir/linkedList.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SpaceInvadersServer.dir/linkedList.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jglez2330/Documents/C/SpaceInvadersServer/linkedList.c -o CMakeFiles/SpaceInvadersServer.dir/linkedList.c.s
+
+CMakeFiles/SpaceInvadersServer.dir/Proyectiles.c.o: CMakeFiles/SpaceInvadersServer.dir/flags.make
+CMakeFiles/SpaceInvadersServer.dir/Proyectiles.c.o: ../Proyectiles.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jglez2330/Documents/C/SpaceInvadersServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/SpaceInvadersServer.dir/Proyectiles.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SpaceInvadersServer.dir/Proyectiles.c.o   -c /Users/jglez2330/Documents/C/SpaceInvadersServer/Proyectiles.c
+
+CMakeFiles/SpaceInvadersServer.dir/Proyectiles.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SpaceInvadersServer.dir/Proyectiles.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jglez2330/Documents/C/SpaceInvadersServer/Proyectiles.c > CMakeFiles/SpaceInvadersServer.dir/Proyectiles.c.i
+
+CMakeFiles/SpaceInvadersServer.dir/Proyectiles.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SpaceInvadersServer.dir/Proyectiles.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jglez2330/Documents/C/SpaceInvadersServer/Proyectiles.c -o CMakeFiles/SpaceInvadersServer.dir/Proyectiles.c.s
+
+CMakeFiles/SpaceInvadersServer.dir/ObjetosJuego.c.o: CMakeFiles/SpaceInvadersServer.dir/flags.make
+CMakeFiles/SpaceInvadersServer.dir/ObjetosJuego.c.o: ../ObjetosJuego.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jglez2330/Documents/C/SpaceInvadersServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/SpaceInvadersServer.dir/ObjetosJuego.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SpaceInvadersServer.dir/ObjetosJuego.c.o   -c /Users/jglez2330/Documents/C/SpaceInvadersServer/ObjetosJuego.c
+
+CMakeFiles/SpaceInvadersServer.dir/ObjetosJuego.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SpaceInvadersServer.dir/ObjetosJuego.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jglez2330/Documents/C/SpaceInvadersServer/ObjetosJuego.c > CMakeFiles/SpaceInvadersServer.dir/ObjetosJuego.c.i
+
+CMakeFiles/SpaceInvadersServer.dir/ObjetosJuego.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SpaceInvadersServer.dir/ObjetosJuego.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jglez2330/Documents/C/SpaceInvadersServer/ObjetosJuego.c -o CMakeFiles/SpaceInvadersServer.dir/ObjetosJuego.c.s
+
+CMakeFiles/SpaceInvadersServer.dir/Barreras.c.o: CMakeFiles/SpaceInvadersServer.dir/flags.make
+CMakeFiles/SpaceInvadersServer.dir/Barreras.c.o: ../Barreras.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jglez2330/Documents/C/SpaceInvadersServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/SpaceInvadersServer.dir/Barreras.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SpaceInvadersServer.dir/Barreras.c.o   -c /Users/jglez2330/Documents/C/SpaceInvadersServer/Barreras.c
+
+CMakeFiles/SpaceInvadersServer.dir/Barreras.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SpaceInvadersServer.dir/Barreras.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jglez2330/Documents/C/SpaceInvadersServer/Barreras.c > CMakeFiles/SpaceInvadersServer.dir/Barreras.c.i
+
+CMakeFiles/SpaceInvadersServer.dir/Barreras.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SpaceInvadersServer.dir/Barreras.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jglez2330/Documents/C/SpaceInvadersServer/Barreras.c -o CMakeFiles/SpaceInvadersServer.dir/Barreras.c.s
+
+CMakeFiles/SpaceInvadersServer.dir/JSON/cJSON.c.o: CMakeFiles/SpaceInvadersServer.dir/flags.make
+CMakeFiles/SpaceInvadersServer.dir/JSON/cJSON.c.o: ../JSON/cJSON.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jglez2330/Documents/C/SpaceInvadersServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/SpaceInvadersServer.dir/JSON/cJSON.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SpaceInvadersServer.dir/JSON/cJSON.c.o   -c /Users/jglez2330/Documents/C/SpaceInvadersServer/JSON/cJSON.c
+
+CMakeFiles/SpaceInvadersServer.dir/JSON/cJSON.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SpaceInvadersServer.dir/JSON/cJSON.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jglez2330/Documents/C/SpaceInvadersServer/JSON/cJSON.c > CMakeFiles/SpaceInvadersServer.dir/JSON/cJSON.c.i
+
+CMakeFiles/SpaceInvadersServer.dir/JSON/cJSON.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SpaceInvadersServer.dir/JSON/cJSON.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jglez2330/Documents/C/SpaceInvadersServer/JSON/cJSON.c -o CMakeFiles/SpaceInvadersServer.dir/JSON/cJSON.c.s
+
+CMakeFiles/SpaceInvadersServer.dir/JSON/JsonHandler.c.o: CMakeFiles/SpaceInvadersServer.dir/flags.make
+CMakeFiles/SpaceInvadersServer.dir/JSON/JsonHandler.c.o: ../JSON/JsonHandler.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jglez2330/Documents/C/SpaceInvadersServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/SpaceInvadersServer.dir/JSON/JsonHandler.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SpaceInvadersServer.dir/JSON/JsonHandler.c.o   -c /Users/jglez2330/Documents/C/SpaceInvadersServer/JSON/JsonHandler.c
+
+CMakeFiles/SpaceInvadersServer.dir/JSON/JsonHandler.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SpaceInvadersServer.dir/JSON/JsonHandler.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jglez2330/Documents/C/SpaceInvadersServer/JSON/JsonHandler.c > CMakeFiles/SpaceInvadersServer.dir/JSON/JsonHandler.c.i
+
+CMakeFiles/SpaceInvadersServer.dir/JSON/JsonHandler.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SpaceInvadersServer.dir/JSON/JsonHandler.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jglez2330/Documents/C/SpaceInvadersServer/JSON/JsonHandler.c -o CMakeFiles/SpaceInvadersServer.dir/JSON/JsonHandler.c.s
+
+CMakeFiles/SpaceInvadersServer.dir/Logica/Jugadores.c.o: CMakeFiles/SpaceInvadersServer.dir/flags.make
+CMakeFiles/SpaceInvadersServer.dir/Logica/Jugadores.c.o: ../Logica/Jugadores.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jglez2330/Documents/C/SpaceInvadersServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/SpaceInvadersServer.dir/Logica/Jugadores.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SpaceInvadersServer.dir/Logica/Jugadores.c.o   -c /Users/jglez2330/Documents/C/SpaceInvadersServer/Logica/Jugadores.c
+
+CMakeFiles/SpaceInvadersServer.dir/Logica/Jugadores.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SpaceInvadersServer.dir/Logica/Jugadores.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jglez2330/Documents/C/SpaceInvadersServer/Logica/Jugadores.c > CMakeFiles/SpaceInvadersServer.dir/Logica/Jugadores.c.i
+
+CMakeFiles/SpaceInvadersServer.dir/Logica/Jugadores.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SpaceInvadersServer.dir/Logica/Jugadores.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jglez2330/Documents/C/SpaceInvadersServer/Logica/Jugadores.c -o CMakeFiles/SpaceInvadersServer.dir/Logica/Jugadores.c.s
+
+>>>>>>> Stashed changes
 # Object files for target SpaceInvadersServer
 SpaceInvadersServer_OBJECTS = \
 "CMakeFiles/SpaceInvadersServer.dir/main.c.o" \
 "CMakeFiles/SpaceInvadersServer.dir/Socket.c.o" \
+<<<<<<< Updated upstream
 "CMakeFiles/SpaceInvadersServer.dir/Server.c.o"
+=======
+"CMakeFiles/SpaceInvadersServer.dir/Server.c.o" \
+"CMakeFiles/SpaceInvadersServer.dir/invader.c.o" \
+"CMakeFiles/SpaceInvadersServer.dir/linkedList.c.o" \
+"CMakeFiles/SpaceInvadersServer.dir/Proyectiles.c.o" \
+"CMakeFiles/SpaceInvadersServer.dir/ObjetosJuego.c.o" \
+"CMakeFiles/SpaceInvadersServer.dir/Barreras.c.o" \
+"CMakeFiles/SpaceInvadersServer.dir/JSON/cJSON.c.o" \
+"CMakeFiles/SpaceInvadersServer.dir/JSON/JsonHandler.c.o" \
+"CMakeFiles/SpaceInvadersServer.dir/Logica/Jugadores.c.o"
+>>>>>>> Stashed changes
 
 # External object files for target SpaceInvadersServer
 SpaceInvadersServer_EXTERNAL_OBJECTS =
 
+<<<<<<< Updated upstream
 SpaceInvadersServer: CMakeFiles/SpaceInvadersServer.dir/main.c.o
 SpaceInvadersServer: CMakeFiles/SpaceInvadersServer.dir/Socket.c.o
 SpaceInvadersServer: CMakeFiles/SpaceInvadersServer.dir/Server.c.o
@@ -115,6 +235,27 @@ SpaceInvadersServer: CMakeFiles/SpaceInvadersServer.dir/link.txt
 
 # Rule to build all files generated by this target.
 CMakeFiles/SpaceInvadersServer.dir/build: SpaceInvadersServer
+=======
+bin/SpaceInvadersServer: CMakeFiles/SpaceInvadersServer.dir/main.c.o
+bin/SpaceInvadersServer: CMakeFiles/SpaceInvadersServer.dir/Socket.c.o
+bin/SpaceInvadersServer: CMakeFiles/SpaceInvadersServer.dir/Server.c.o
+bin/SpaceInvadersServer: CMakeFiles/SpaceInvadersServer.dir/invader.c.o
+bin/SpaceInvadersServer: CMakeFiles/SpaceInvadersServer.dir/linkedList.c.o
+bin/SpaceInvadersServer: CMakeFiles/SpaceInvadersServer.dir/Proyectiles.c.o
+bin/SpaceInvadersServer: CMakeFiles/SpaceInvadersServer.dir/ObjetosJuego.c.o
+bin/SpaceInvadersServer: CMakeFiles/SpaceInvadersServer.dir/Barreras.c.o
+bin/SpaceInvadersServer: CMakeFiles/SpaceInvadersServer.dir/JSON/cJSON.c.o
+bin/SpaceInvadersServer: CMakeFiles/SpaceInvadersServer.dir/JSON/JsonHandler.c.o
+bin/SpaceInvadersServer: CMakeFiles/SpaceInvadersServer.dir/Logica/Jugadores.c.o
+bin/SpaceInvadersServer: CMakeFiles/SpaceInvadersServer.dir/build.make
+bin/SpaceInvadersServer: /usr/local/lib/libSDL2.dylib
+bin/SpaceInvadersServer: CMakeFiles/SpaceInvadersServer.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/jglez2330/Documents/C/SpaceInvadersServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking C executable bin/SpaceInvadersServer"
+	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SpaceInvadersServer.dir/link.txt --verbose=$(VERBOSE)
+
+# Rule to build all files generated by this target.
+CMakeFiles/SpaceInvadersServer.dir/build: bin/SpaceInvadersServer
+>>>>>>> Stashed changes
 
 .PHONY : CMakeFiles/SpaceInvadersServer.dir/build
 

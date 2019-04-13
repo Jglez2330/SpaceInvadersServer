@@ -1,1 +1,5 @@
+<<<<<<< Updated upstream
 /Library/Developer/CommandLineTools/usr/bin/cc -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/SpaceInvadersServer.dir/main.c.o CMakeFiles/SpaceInvadersServer.dir/Socket.c.o CMakeFiles/SpaceInvadersServer.dir/Server.c.o  -o SpaceInvadersServer 
+=======
+/Library/Developer/CommandLineTools/usr/bin/cc -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/SpaceInvadersServer.dir/main.c.o CMakeFiles/SpaceInvadersServer.dir/Socket.c.o CMakeFiles/SpaceInvadersServer.dir/Server.c.o CMakeFiles/SpaceInvadersServer.dir/invader.c.o CMakeFiles/SpaceInvadersServer.dir/linkedList.c.o CMakeFiles/SpaceInvadersServer.dir/Proyectiles.c.o CMakeFiles/SpaceInvadersServer.dir/ObjetosJuego.c.o CMakeFiles/SpaceInvadersServer.dir/Barreras.c.o CMakeFiles/SpaceInvadersServer.dir/JSON/cJSON.c.o CMakeFiles/SpaceInvadersServer.dir/JSON/JsonHandler.c.o CMakeFiles/SpaceInvadersServer.dir/Logica/Jugadores.c.o  -o bin/SpaceInvadersServer /usr/local/lib/libSDL2.dylib 
+>>>>>>> Stashed changes

@@ -5,7 +5,11 @@
 		<Option title="SpaceInvadersServer"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
+<<<<<<< Updated upstream
 		<Option virtualFolders="CMake Files\;"/>
+=======
+		<Option virtualFolders="CMake Files\;CMake Files\CMAKE\;"/>
+>>>>>>> Stashed changes
 		<Build>
 			<Target title="all">
 				<Option working_dir="/Users/jglez2330/Documents/C/SpaceInvadersServer/cmake-build-debug"/>
@@ -38,12 +42,21 @@
 				</MakeCommands>
 			</Target>
 			<Target title="SpaceInvadersServer">
+<<<<<<< Updated upstream
 				<Option output="/Users/jglez2330/Documents/C/SpaceInvadersServer/cmake-build-debug/SpaceInvadersServer" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/jglez2330/Documents/C/SpaceInvadersServer/cmake-build-debug"/>
+=======
+				<Option output="/Users/jglez2330/Documents/C/SpaceInvadersServer/cmake-build-debug/bin/SpaceInvadersServer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jglez2330/Documents/C/SpaceInvadersServer/cmake-build-debug/bin"/>
+>>>>>>> Stashed changes
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+<<<<<<< Updated upstream
+=======
+					<Add directory="/usr/local/include/SDL2"/>
+>>>>>>> Stashed changes
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
@@ -58,12 +71,21 @@
 				</MakeCommands>
 			</Target>
 			<Target title="SpaceInvadersServer/fast">
+<<<<<<< Updated upstream
 				<Option output="/Users/jglez2330/Documents/C/SpaceInvadersServer/cmake-build-debug/SpaceInvadersServer" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/jglez2330/Documents/C/SpaceInvadersServer/cmake-build-debug"/>
+=======
+				<Option output="/Users/jglez2330/Documents/C/SpaceInvadersServer/cmake-build-debug/bin/SpaceInvadersServer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jglez2330/Documents/C/SpaceInvadersServer/cmake-build-debug/bin"/>
+>>>>>>> Stashed changes
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+<<<<<<< Updated upstream
+=======
+					<Add directory="/usr/local/include/SDL2"/>
+>>>>>>> Stashed changes
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
@@ -78,6 +100,48 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+<<<<<<< Updated upstream
+=======
+		<Unit filename="/Users/jglez2330/Documents/C/SpaceInvadersServer/Barreras.c">
+			<Option target="SpaceInvadersServer"/>
+		</Unit>
+		<Unit filename="/Users/jglez2330/Documents/C/SpaceInvadersServer/Barreras.h">
+			<Option target="SpaceInvadersServer"/>
+		</Unit>
+		<Unit filename="/Users/jglez2330/Documents/C/SpaceInvadersServer/Clientes.h">
+			<Option target="SpaceInvadersServer"/>
+		</Unit>
+		<Unit filename="/Users/jglez2330/Documents/C/SpaceInvadersServer/JSON/JsonHandler.c">
+			<Option target="SpaceInvadersServer"/>
+		</Unit>
+		<Unit filename="/Users/jglez2330/Documents/C/SpaceInvadersServer/JSON/JsonHandler.h">
+			<Option target="SpaceInvadersServer"/>
+		</Unit>
+		<Unit filename="/Users/jglez2330/Documents/C/SpaceInvadersServer/JSON/cJSON.c">
+			<Option target="SpaceInvadersServer"/>
+		</Unit>
+		<Unit filename="/Users/jglez2330/Documents/C/SpaceInvadersServer/JSON/cJSON.h">
+			<Option target="SpaceInvadersServer"/>
+		</Unit>
+		<Unit filename="/Users/jglez2330/Documents/C/SpaceInvadersServer/Logica/Jugadores.c">
+			<Option target="SpaceInvadersServer"/>
+		</Unit>
+		<Unit filename="/Users/jglez2330/Documents/C/SpaceInvadersServer/Logica/Jugadores.h">
+			<Option target="SpaceInvadersServer"/>
+		</Unit>
+		<Unit filename="/Users/jglez2330/Documents/C/SpaceInvadersServer/ObjetosJuego.c">
+			<Option target="SpaceInvadersServer"/>
+		</Unit>
+		<Unit filename="/Users/jglez2330/Documents/C/SpaceInvadersServer/ObjetosJuego.h">
+			<Option target="SpaceInvadersServer"/>
+		</Unit>
+		<Unit filename="/Users/jglez2330/Documents/C/SpaceInvadersServer/Proyectiles.c">
+			<Option target="SpaceInvadersServer"/>
+		</Unit>
+		<Unit filename="/Users/jglez2330/Documents/C/SpaceInvadersServer/Proyectiles.h">
+			<Option target="SpaceInvadersServer"/>
+		</Unit>
+>>>>>>> Stashed changes
 		<Unit filename="/Users/jglez2330/Documents/C/SpaceInvadersServer/Server.c">
 			<Option target="SpaceInvadersServer"/>
 		</Unit>
@@ -90,11 +154,32 @@
 		<Unit filename="/Users/jglez2330/Documents/C/SpaceInvadersServer/Socket.h">
 			<Option target="SpaceInvadersServer"/>
 		</Unit>
+<<<<<<< Updated upstream
+=======
+		<Unit filename="/Users/jglez2330/Documents/C/SpaceInvadersServer/invader.c">
+			<Option target="SpaceInvadersServer"/>
+		</Unit>
+		<Unit filename="/Users/jglez2330/Documents/C/SpaceInvadersServer/invader.h">
+			<Option target="SpaceInvadersServer"/>
+		</Unit>
+		<Unit filename="/Users/jglez2330/Documents/C/SpaceInvadersServer/linkedList.c">
+			<Option target="SpaceInvadersServer"/>
+		</Unit>
+		<Unit filename="/Users/jglez2330/Documents/C/SpaceInvadersServer/linkedList.h">
+			<Option target="SpaceInvadersServer"/>
+		</Unit>
+>>>>>>> Stashed changes
 		<Unit filename="/Users/jglez2330/Documents/C/SpaceInvadersServer/main.c">
 			<Option target="SpaceInvadersServer"/>
 		</Unit>
 		<Unit filename="/Users/jglez2330/Documents/C/SpaceInvadersServer/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
+<<<<<<< Updated upstream
+=======
+		<Unit filename="/Users/jglez2330/Documents/C/SpaceInvadersServer/CMAKE/FindSDL2.cmake">
+			<Option virtualFolder="CMake Files\CMAKE\"/>
+		</Unit>
+>>>>>>> Stashed changes
 	</Project>
 </CodeBlocks_project_file>

@@ -6,5 +6,9 @@ C_FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk 
 
 C_DEFINES = 
 
+<<<<<<< Updated upstream
 C_INCLUDES = 
+=======
+C_INCLUDES = -I/usr/local/include/SDL2 
+>>>>>>> Stashed changes
 
